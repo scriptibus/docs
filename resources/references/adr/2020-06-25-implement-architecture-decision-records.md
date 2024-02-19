@@ -3,7 +3,7 @@ title: Implement architecture decision records
 date: 2020-06-25
 area: core
 tags: [adr, workflow]
---- 
+---
 
 # Implement architecture decision records
 
@@ -53,7 +53,7 @@ The ADRs are markdown files inside the platform repository, located in the "adr"
    *  One developer must be a member of the core development team
    *  One developer must be a member of a team, other than the team of the creator
 * One product owner or higher role has to approve an ADR
-** This part of the decision is superseded by [2021-11-05 - Adjust ADR approval rules for the new org structure](2021-11-05-adjust-ADR-approval-rules.md), but the rest of this ADR is untouched.**
+** This part of the decision is superseded by [2021-11-05 - Adjust ADR approval rules for the new org structure](2021-11-05-adjust-adr-approval-rules.md), but the rest of this ADR is untouched.**
 
 **Should counter decisions also be documented?**   
 Not specific, but if there is more than one possible solution, all options should be outlined.
@@ -73,4 +73,3 @@ The status of an ADR is symbolized by the directory. All ADR located in the main
 
 **Can an ADR be changed?**  
 When an ADR is accepted and merged in to the code, it can no longer be changed. If a decision is outdated or has to be changed, the ADR has to be superseded by a new ADR. Superseded ADRs have to be moved to the `/adr/_superseded` directory.
-
